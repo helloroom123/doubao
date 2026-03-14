@@ -37,7 +37,7 @@ const I18N = {
     utau_spec_3: "<strong>想定ジャンル：</strong>中華ポップス / 日本語カバー / 実験調声",
     utau_lead_2: "配布ページ：",
     utau_link: "doubao CVVC 音源配布ページへ",
-    utau_credit: "制作者：会飞的六腿青蛙（Bilibili）",
+    utau_credit: "制作者：鸽子145ー清森ー（Bilibili）",
     art_title: "立ち絵作者情報",
     art_lead: "作者ページ：",
     art_link: "Bilibiliの作者ページを開く",
