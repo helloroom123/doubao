@@ -5,7 +5,7 @@ if (yearNode) {
 
 const I18N = {
   ja: {
-    doc_title: "doubao cvvc音源 / KASI DOUBAO 公式サイト",
+    doc_title: "doubao cvvc音源 / KANE DOUBAO 公式サイト",
     meta_description:
       "Frutiger Aeroの青いガラス質感で構成した、doubao CVVC音源の紹介サイト。UTAU配布先、イラスト作者、作品紹介、利用ガイドを掲載。",
     brand_subtitle: "Frutiger Aero Styled Fan Site",
@@ -22,8 +22,8 @@ const I18N = {
     overview_badge: "CHARACTER PROFILE",
     overview_title: "キャラクター紹介",
     overview_lead:
-      "KASI DOUBAO（豆包）は、中国語CVVCを中心に設計されたUTAU向け音声ライブラリです。透明感のある音色と粒立ちのある発音が特長で、ポップスやエレクトロ系のカバー制作に適しています。このページでは、設定情報・配布先・二次創作向けの参照情報をまとめています。",
-    overview_profile_1: "<strong>名前：</strong>KASI DOUBAO / 豆包",
+      "KANE DOUBAO（豆包）は、中国語CVVCを中心に設計されたUTAU向け音声ライブラリです。透明感のある音色と粒立ちのある発音が特長で、ポップスやエレクトロ系のカバー制作に適しています。このページでは、設定情報・配布先・二次創作向けの参照情報をまとめています。",
+    overview_profile_1: "<strong>名前：</strong>KANE DOUBAO / 豆包",
     overview_profile_2: "<strong>ライブラリ形式：</strong>UTAU CVVC",
     overview_profile_3: "<strong>対応言語：</strong>中国語中心（他言語調声にも対応可能）",
     overview_profile_4: "<strong>おすすめ用途：</strong>カバー投稿 / 二次創作企画 / 調声練習",
@@ -71,7 +71,7 @@ const I18N = {
       "本記載は一般的な注意喚起であり、法的助言ではありません。商用利用や権利紛争は専門家へご相談ください。",
   },
   zh: {
-    doc_title: "doubao cvvc声库 / KASI DOUBAO 官方站",
+    doc_title: "doubao cvvc声库 / KANE DOUBAO 官方站",
     meta_description:
       "Frutiger Aero 蓝色毛玻璃风格的 doubao CVVC 声库介绍站，包含 UTAU 声源地址、立绘作者、优秀作品和使用协议。",
     brand_subtitle: "Frutiger Aero 风格同人站",
@@ -88,8 +88,8 @@ const I18N = {
     overview_badge: "CHARACTER PROFILE",
     overview_title: "歌姬介绍",
     overview_lead:
-      "KASI DOUBAO（豆包）是以中文 CVVC 为核心的 UTAU 角色声库，音色偏清亮、颗粒感明显，适合流行、电音与高能曲风。本页集中展示角色设定、声源入口与二创参考信息。",
-    overview_profile_1: "<strong>角色名：</strong>KASI DOUBAO / 豆包",
+      "KANE DOUBAO（豆包）是以中文 CVVC 为核心的 UTAU 角色声库，音色偏清亮、颗粒感明显，适合流行、电音与高能曲风。本页集中展示角色设定、声源入口与二创参考信息。",
+    overview_profile_1: "<strong>角色名：</strong>KANE DOUBAO / 豆包",
     overview_profile_2: "<strong>声库类型：</strong>UTAU CVVC",
     overview_profile_3: "<strong>语言方向：</strong>中文为主，可扩展跨语种调教",
     overview_profile_4: "<strong>推荐场景：</strong>翻唱投稿 / 二创企划 / 角色调声练习",
