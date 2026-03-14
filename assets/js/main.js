@@ -103,7 +103,7 @@ const I18N = {
     utau_spec_3: "<strong>常用方向：</strong>中文流行 / 日文翻唱 / 实验调声",
     utau_lead_2: "配布页面：",
     utau_link: "前往 doubao CVVC 声库发布页",
-    utau_credit: "制作者：会飞的六腿青蛙（B站）",
+    utau_credit: "制作者：鸽子145ー清森ー（B站）",
     art_title: "立绘作者信息",
     art_lead: "作者主页：",
     art_link: "打开 B站作者主页",
