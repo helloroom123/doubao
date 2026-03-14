@@ -1,130 +1,297 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>歌姬企划 · KASI DOJAO 官方站</title>
+  <title id="doc-title">doubao cvvc音源 / KASI DOUBAO 公式サイト</title>
   <meta
     name="description"
-    content="受重音系官网结构启发的歌姬宣传站，包含 KV、News、Check、音源入口与规约导航。"
+    content="Frutiger Aeroの青いガラス質感で構成した、doubao CVVC音源の紹介サイト。UTAU配布先、イラスト作者、作品紹介、利用ガイドを掲載。"
   />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <div class="page-bg" aria-hidden="true"></div>
-
-  <div class="site-wrap">
-    <header class="panel site-header">
-      <div class="brand-group">
-        <p class="tiny-brand">SINGABLE CHARACTER</p>
-        <h1>歌姬计划 KASI DOJAO</h1>
-        <p class="tiny-sub">OFFICIAL PROMO SITE</p>
+  <div class="future-overlay" aria-hidden="true">
+    <div class="sunset-halo"></div>
+    <div class="sunset-disc"></div>
+    <div class="horizon-band"></div>
+    <div class="inward-grid"></div>
+    <div class="future-marquee">
+      <div class="future-track">
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
+        <span>KASi doubao</span>
       </div>
-      <nav class="top-nav" aria-label="主导航">
-        <a class="nav-link active" href="#hero">Top</a>
-        <a class="nav-link" href="#news">News</a>
-        <a class="nav-link" href="#check">Check</a>
-        <a class="nav-link" href="#voice">Voice</a>
-        <a class="nav-link" href="#guide">Guide</a>
-      </nav>
-    </header>
+    </div>
+  </div>
+  <div class="sunlight-front" aria-hidden="true"></div>
 
-    <main class="main-flow">
-      <section id="hero" class="panel hero-block">
-        <div class="hero-copy">
-          <p class="badge">NEW VISUAL 2026</p>
-          <h2>「云端失真」主视觉公开</h2>
-          <p>
-            以黑底霓虹和高对比粉青色为主轴，延续电子感与人物剪影冲击。你可以在这里查看
-            设定、音源入口、规约说明和官方动态。
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-main" href="#voice">试听入口</a>
-            <a class="btn btn-sub" href="#guide">使用规约</a>
-          </div>
-        </div>
-        <div class="hero-art">
-          <img src="image1.png" alt="歌姬人设图" />
-        </div>
-      </section>
+  <div class="site-layout">
+    <aside class="panel sidebar">
+      <div class="brand-group">
+        <p class="tiny-brand">UTAU CHARACTER LIBRARY</p>
+        <h1>doubao cvvc音源 / KASI DOUBAO</h1>
+        <p class="tiny-sub" data-i18n="brand_subtitle">Frutiger Aero Styled Fan Site</p>
+      </div>
 
-      <section id="news" class="panel news-block">
-        <h2>News on X !</h2>
-        <p class="news-title">官方账号持续更新中</p>
-        <p class="news-text">
-          新单预告、活动现场与授权说明会优先在 X 发布，建议先关注官方账号。
-        </p>
+      <div class="lang-switch" role="group" aria-label="Language switch">
+        <button class="lang-btn is-active" data-lang="ja" type="button"><span>日本語</span></button>
+        <button class="lang-btn" data-lang="zh" type="button"><span>中文</span></button>
+      </div>
+
+      <div class="column-side-buttons" aria-label="Site links">
         <a
-          class="btn btn-main"
-          href="https://x.com/twindrill_teto?ref_src=twsrc%5Etfw"
+          class="inline-link side-link-btn"
+          href="https://github.com/helloroom123/doubao"
           target="_blank"
           rel="noreferrer"
+          data-i18n="side_btn_github"
         >
-          Post by official account
+          GitHubページ
         </a>
-      </section>
+        <a
+          class="inline-link side-link-btn"
+          href="https://space.bilibili.com/3494371320138345?spm_id_from=333.1007.0.0"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="side_btn_author"
+        >
+          サイト作者
+        </a>
+      </div>
 
-      <section id="check" class="panel check-block">
-        <h2>Check!</h2>
-        <div class="check-grid">
-          <a class="check-btn" href="https://twindrill.fanbox.cc/" target="_blank" rel="noreferrer">
-            PIXIV FANBOX
-          </a>
-          <a class="check-btn" href="https://twindrill.booth.pm/" target="_blank" rel="noreferrer">
-            BOOTH
-          </a>
-          <a class="check-btn" href="https://www.youtube.com/user/twindrillteto" target="_blank" rel="noreferrer">
-            YouTube
-          </a>
-        </div>
-        <div class="promo-card">
-          <img src="image2.png" alt="歌姬宣传海报" />
-        </div>
-      </section>
+      <nav class="side-nav" aria-label="サイドナビゲーション">
+        <a class="nav-link active" href="#overview"><span data-i18n="nav_overview">キャラクター</span></a>
+        <a class="nav-link" href="#utau"><span data-i18n="nav_utau">音源配布</span></a>
+        <a class="nav-link" href="#art"><span data-i18n="nav_art">イラスト作者</span></a>
+        <a class="nav-link" href="#works"><span data-i18n="nav_works">作品紹介</span></a>
+        <a class="nav-link" href="#guide"><span data-i18n="nav_guide">利用ガイド</span></a>
+      </nav>
 
-      <section id="voice" class="panel voice-block">
-        <h2>Voice / Products</h2>
-        <div class="voice-grid">
-          <article class="voice-item">
-            <h3>UTAU 音源</h3>
-            <p>经典音源库，适合二创与实验调校。</p>
-            <a class="inline-link" href="#">查看归档</a>
-          </article>
-          <article class="voice-item">
-            <h3>Synthesizer V AI</h3>
-            <p>更自然的咬字和跨语种表现，推荐商用流程。</p>
-            <a class="inline-link" href="#">产品说明</a>
-          </article>
-          <article class="voice-item">
-            <h3>VOICEPEAK</h3>
-            <p>语音旁白与角色演出，适配视频和直播场景。</p>
-            <a class="inline-link" href="#">立即试听</a>
-          </article>
-          <article class="voice-item">
-            <h3>Logo / Illustration</h3>
-            <p>官方视觉素材下载，含基础授权说明。</p>
-            <a class="inline-link" href="#">素材包</a>
-          </article>
-        </div>
-      </section>
+      <div class="sidebar-card">
+        <p class="card-title" data-i18n="quick_links_title">クイックリンク</p>
+        <a
+          class="inline-link"
+          href="https://www.bilibili.com/opus/1171837579962613768?spm_id_from=333.1387.0.0"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="quick_link_utau"
+        >
+          UTAU 音源（Bilibili Opus）
+        </a>
+        <a
+          class="inline-link"
+          href="https://space.bilibili.com/3546557559343872/dynamic"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="quick_link_art"
+        >
+          イラスト作者ページ
+        </a>
+      </div>
+    </aside>
 
-      <section id="guide" class="panel guide-block">
-        <h2>Guidelines</h2>
-        <ul class="guide-list">
-          <li><a href="#">角色规约 Character Terms of Use</a></li>
-          <li><a href="#">音源规约 Voice Library Terms of Use</a></li>
-          <li><a href="#">二创授权 Copyright Application</a></li>
-          <li><a href="#">联系 Contact Form</a></li>
+    <main class="content">
+      <section id="overview" class="panel page-section">
+        <p class="badge" data-i18n="overview_badge">CHARACTER PROFILE</p>
+        <h2 data-i18n="overview_title">キャラクター紹介</h2>
+        <p class="lead" data-i18n="overview_lead">
+          KASI DOUBAO（豆包）は、中国語CVVCを中心に設計されたUTAU向け音声ライブラリです。透明感のある音色と粒立ちのある発音が特長で、ポップスやエレクトロ系のカバー制作に適しています。このページでは、設定情報・配布先・二次創作向けの参照情報をまとめています。
+        </p>
+        <ul class="profile-list">
+          <li data-i18n-html="overview_profile_1"><strong>名前：</strong>KASI DOUBAO / 豆包</li>
+          <li data-i18n-html="overview_profile_2"><strong>ライブラリ形式：</strong>UTAU CVVC</li>
+          <li data-i18n-html="overview_profile_3"><strong>対応言語：</strong>中国語中心（他言語調声にも対応可能）</li>
+          <li data-i18n-html="overview_profile_4"><strong>おすすめ用途：</strong>カバー投稿 / 二次創作企画 / 調声練習</li>
         </ul>
+        <div class="hero-images">
+          <figure class="glass-frame">
+            <img src="image1.png" alt="doubao キャラクター設定イラスト" />
+            <figcaption data-i18n="overview_fig_1">キャラクター設定イラスト</figcaption>
+          </figure>
+          <figure class="glass-frame">
+            <img src="image2.png" alt="doubao ビジュアルポスター" />
+            <figcaption data-i18n="overview_fig_2">プロモーションビジュアル</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="utau" class="panel page-section">
+        <h2 data-i18n="utau_title">UTAU 音源配布</h2>
+        <p class="lead" data-i18n="utau_lead_1">
+          doubao CVVCは、明るい主音と子音遷移のつながりを重視したUTAU用音源です。高速テンポの曲や電子系アレンジでも輪郭が出しやすい設計です。
+        </p>
+        <ul class="voicebank-list">
+          <li data-i18n-html="utau_spec_1"><strong>収録方式：</strong>CVVC</li>
+          <li data-i18n-html="utau_spec_2"><strong>対応ソフト：</strong>UTAU / OpenUTAU</li>
+          <li data-i18n-html="utau_spec_3"><strong>想定ジャンル：</strong>中華ポップス / 日本語カバー / 実験調声</li>
+        </ul>
+        <p class="lead" data-i18n="utau_lead_2">配布ページ：</p>
+        <a
+          class="inline-link big"
+          href="https://www.bilibili.com/opus/1171837579962613768?spm_id_from=333.1387.0.0"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="utau_link"
+        >
+          doubao CVVC 音源配布ページへ
+        </a>
+        <p class="credit" data-i18n="utau_credit">
+          制作者：会飞的六腿青蛙（Bilibili）
+        </p>
+      </section>
+
+      <section id="art" class="panel page-section">
+        <h2 data-i18n="art_title">立ち絵作者情報</h2>
+        <p class="lead" data-i18n="art_lead">作者ページ：</p>
+        <a
+          class="inline-link big"
+          href="https://space.bilibili.com/3546557559343872/dynamic"
+          target="_blank"
+          rel="noreferrer"
+          data-i18n="art_link"
+        >
+          Bilibiliの作者ページを開く
+        </a>
+        <p class="credit" data-i18n="art_credit">
+          作者：-横膈膜纵裂-（Bilibili UID: 3546557559343872）
+        </p>
+      </section>
+
+      <section id="works" class="panel page-section">
+        <div class="works-head">
+          <h2 data-i18n="works_title">作品紹介</h2>
+          <a class="inline-link" href="https://player.bilibili.com/" target="_blank" rel="noreferrer" data-i18n="works_doc">
+            外部プレイヤー仕様
+          </a>
+        </div>
+
+        <div class="video-grid">
+          <article class="video-card">
+            <h3>[UTAU豆包] 求＆影 / 求和影</h3>
+            <p class="work-meta" data-i18n="work_meta_1">投稿者：会飞的六腿青蛙 · BV1WvFrz6EU8</p>
+            <div class="video-wrap">
+              <iframe
+                src="https://player.bilibili.com/player.html?bvid=BV1WvFrz6EU8&danmaku=0"
+                scrolling="no"
+                border="0"
+                frameborder="no"
+                framespacing="0"
+                allowfullscreen="true"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <a
+              class="inline-link"
+              href="https://www.bilibili.com/video/BV1WvFrz6EU8?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2479604-tn27s.1773455483193.286&vd_source=4c5d66514e9659ee28eeac91fc35d47e"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="work_open_link"
+            >
+              Bilibiliで動画を見る
+            </a>
+          </article>
+
+          <article class="video-card">
+            <h3>[UTAU豆包] うそつきマカロン（说谎的马卡龙）</h3>
+            <p class="work-meta" data-i18n="work_meta_2">投稿者：会飞的六腿青蛙 · BV1DZ64BfEeG</p>
+            <div class="video-wrap">
+              <iframe
+                src="https://player.bilibili.com/player.html?bvid=BV1DZ64BfEeG&danmaku=0"
+                scrolling="no"
+                border="0"
+                frameborder="no"
+                framespacing="0"
+                allowfullscreen="true"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <a
+              class="inline-link"
+              href="https://www.bilibili.com/video/BV1DZ64BfEeG?spm_id_from=333.788.recommend_more_video.1&trackid=web_related_0.router-related-2479604-gjmc5.1773455990226.96&vd_source=4c5d66514e9659ee28eeac91fc35d47e"
+              target="_blank"
+              rel="noreferrer"
+              data-i18n="work_open_link"
+            >
+              Bilibiliで動画を見る
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="guide" class="panel page-section">
+        <h2 data-i18n="guide_title">サイトポリシー / 著作権表示</h2>
+        <p class="lead" data-i18n="guide_lead">
+          本サイトは個人による二次創作ファンサイトであり、いかなる公式運営主体にも所属しません。キャラクター紹介、作品リンク、学習目的の情報整理に限定して公開しています。
+        </p>
+        <div class="legal-box">
+          <ol class="agreement-list">
+            <li data-i18n="guide_rule_1">本サイトは非商用です。音源販売、広告収益化、有料配布は行いません。</li>
+            <li data-i18n="guide_rule_2">音源・立ち絵・動画等の権利は各権利者に帰属し、本サイトはリンクおよび埋め込み表示のみを行います。</li>
+            <li data-i18n="guide_rule_3">動画表示にはBilibili公式外部プレイヤーを使用し、再配布・透かし除去・無断ダウンロードは提供しません。</li>
+            <li data-i18n="guide_rule_4">権利者から修正・削除要請があった場合、確認後すみやかに対応します。</li>
+            <li data-i18n="guide_rule_5">本サイト経由で素材を利用する場合、利用者自身が許諾範囲を確認し、自己責任で利用してください。</li>
+          </ol>
+
+          <details class="legal-details">
+            <summary data-i18n="legal_summary">法的根拠・プラットフォーム規約（要約）</summary>
+            <ul class="legal-links">
+              <li>
+                <span data-i18n="legal_ref_1_label">著作権法改正の公布（主席令第62号）：</span>
+                <a href="https://www.gov.cn/xinwen/2020-11/11/content_5560530.htm" target="_blank" rel="noreferrer" data-i18n="legal_ref_1_link">
+                  中国政府網
+                </a>
+              </li>
+              <li>
+                <span data-i18n="legal_ref_2_label">情報ネットワーク伝達権保護条例（例：第2条・第10条・第14-15条）：</span>
+                <a href="https://www.ncac.gov.cn/xxfb/flfg/flfg_532/200701/t20070109_50525.html" target="_blank" rel="noreferrer" data-i18n="legal_ref_2_link">
+                  国家版権局
+                </a>
+              </li>
+              <li>
+                <span data-i18n="legal_ref_3_label">Bilibiliユーザー利用規約（権利保証・侵害対応）：</span>
+                <a href="https://game.bilibili.com/licence/h5/" target="_blank" rel="noreferrer" data-i18n="legal_ref_3_link">
+                  bilibili 利用規約
+                </a>
+              </li>
+              <li>
+                <span data-i18n="legal_ref_4_label">Bilibili外部プレイヤー仕様：</span>
+                <a href="https://player.bilibili.com/" target="_blank" rel="noreferrer" data-i18n="legal_ref_4_link">
+                  player.bilibili.com
+                </a>
+              </li>
+            </ul>
+            <p class="legal-note" data-i18n="legal_note">
+              本記載は一般的な注意喚起であり、法的助言ではありません。商用利用や権利紛争は専門家へご相談ください。
+            </p>
+          </details>
+        </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <p>
-        © <span id="year"></span> KASI DOJAO Project · Inspired by Japanese vocal character official-site layout.
-      </p>
-    </footer>
   </div>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="year"></span> KASI DOUBAO Project · Site Author:
+      <a
+        href="https://space.bilibili.com/3494371320138345?spm_id_from=333.1007.0.0"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Bilibili 3494371320138345
+      </a>
+    </p>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
